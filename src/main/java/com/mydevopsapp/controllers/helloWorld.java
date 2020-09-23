@@ -1,10 +1,12 @@
 package com.mydevopsapp.controllers;
 
-public class helloWorld {
-    public static void main(String[] args) {
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-        System.out.println("Hello World");
-        System.out.println("Git");
-        System.out.println("Git");
-    }
+@Controller
+public class helloWorld {
+@RequestMapping("/")
+    public String sayHello(){
+    return "index";
+   }
 }
