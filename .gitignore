@@ -1,0 +1,14 @@
+*.class
+
+#Mobile Tools for java
+.mtj.tmp/
+
+*.jar
+*.war
+*.ear
+
+hs_err_pid*
+
+target
+.idea
+.mydevopsapp.iml
